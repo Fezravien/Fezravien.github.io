@@ -65,7 +65,7 @@ published: true
 - 딕셔너리는 배열과 다르게 딕셔너리 내부에 없는 키로 접근해도 오류가 발생하지 않는다.
   - 하지만 `nil`을 반환
 
-##### Dictionary 초기화
+#####  Dictionary 초기화
 
 ```swift
 var dictionary : [Int : String] = [:]
@@ -76,7 +76,7 @@ var dictionary4 : Dictionary<Int, String> = Dictionary<Int, String>()
 
 
 
-#####Dictionary 값 수정
+##### Dictionary 값 수정
 
 ```swift
 var dictionary : [Int : String] = [1:"Fezz", 2:"iOS", 3:"Swift"]
@@ -88,7 +88,7 @@ print(dictionary) //[1:"Fezz", 2:"iOS", 3:"iOS"]
 
 
 
-#####Dictionary 값 추가 
+##### Dictionary 값 추가 
 
 ```swift
 var dictionary : [Int : String] = [1:"Fezz", 2:"swift", 3:"iOS"]
@@ -100,7 +100,7 @@ print(dictionary) //[1:"Fezz", 2:"swift", 3:"iOS", 4:"Fezz", 5:"Hello"]
 
 
 
-##### Dictionary 값 접근
+#####  Dictionary 값 접근
 
 ```swift
 var dictionary : [Int : String] = [1:"Fezz", 2:"swift", 3:"iOS"]
@@ -120,7 +120,7 @@ print(dictionary3["30"]) //nil. "30"을 Value로 가지는 쌍은 있지만, "30
 
 
 
-##### Dictionary 값 삭제
+#####  Dictionary 값 삭제
 
 ```swift
 dictionary = [1:"Fezz", 2:"swift", 3:"iOS", 4:"fun", 5:"Hello"]
