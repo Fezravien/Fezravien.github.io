@@ -1,3 +1,18 @@
+---
+layout: post
+title: Today I Learned 📚
+tags:
+  - TIL
+  - yagom iOS_CAMP_2nd
+  - ios
+hero: https://source.unsplash.com/collection/2229334/
+overlay: orange
+published: true
+
+---
+
+{: .lead}
+<!–-break-–>
 # Today I Learned 🔥
 
 ## 2021.03.09 (화)
