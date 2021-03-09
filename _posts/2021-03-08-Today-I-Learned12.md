@@ -6,7 +6,7 @@ tags:
   - yagom iOS_CAMP_2nd
   - ios
   - swift
-hero: https://source.unsplash.com/collection/5058541/
+hero: https://source.unsplash.com/collection/2229334/
 overlay: orange
 published: true
 
@@ -63,7 +63,10 @@ published: true
   - 딕셔너리 안에는 키가 하나이거나 여러 개일 수 있다.
   - 하나의 딕셔너리 안의 키는 같은 이름을 중복해서 사용할 수 없다.
 - 딕셔너리는 배열과 다르게 딕셔너리 내부에 없는 키로 접근해도 오류가 발생하지 않는다.
+  
   - 하지만 `nil`을 반환
+  
+  <br/>
 
 #####  Dictionary 초기화
 
@@ -74,7 +77,7 @@ var dictionary3 : Dictionary = [Int:String]()
 var dictionary4 : Dictionary<Int, String> = Dictionary<Int, String>()
 ```
 
-
+<br/>
 
 ##### Dictionary 값 수정
 
@@ -86,9 +89,9 @@ dictionary[3] = "iOS"
 print(dictionary) //[1:"Fezz", 2:"iOS", 3:"iOS"]
 ```
 
+<br/>
 
-
-##### Dictionary 값 추가 
+#####  Dictionary 값 추가
 
 ```swift
 var dictionary : [Int : String] = [1:"Fezz", 2:"swift", 3:"iOS"]
@@ -98,7 +101,7 @@ dictionary[5] = "Hello"
 print(dictionary) //[1:"Fezz", 2:"swift", 3:"iOS", 4:"Fezz", 5:"Hello"]
 ```
 
-
+<br/>
 
 #####  Dictionary 값 접근
 
@@ -118,7 +121,7 @@ print(dictionary3["30"]) //nil. "30"을 Value로 가지는 쌍은 있지만, "30
 //무조건 Key값으로 접근해야 Value를 얻어올 수 있음.
 ```
 
-
+<br/>
 
 #####  Dictionary 값 삭제
 
@@ -131,7 +134,7 @@ print(dictionary) //[:]
 dictionary = ["Fezz": 1] //error! [Int:String]타입의 Dictionary였으므로. 타입을 바꿔줄 수 없다.
 ```
 
-
+<br/>
 
 > 출처 : [딕셔너리](https://zeddios.tistory.com/129)
 
