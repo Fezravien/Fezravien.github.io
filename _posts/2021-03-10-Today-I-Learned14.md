@@ -43,7 +43,9 @@ published: true
 
   - MVVM 파일의 구성 
 
-    <img src="/Users/yjaewoongnaver.com/Desktop/스크린샷 2021-03-10 오후 7.03.59.png" alt="스크린샷 2021-03-10 오후 7.03.59" style="zoom:50%;" /> 
+    <img src="https://blog.kakaocdn.net/dn/b8jsCA/btqNBe5TGKJ/k68kf26zWIyuqantPuaNfK/img.png" alt="img" style="zoom:50%;" /> 
+
+    
 
     > Controller, Views, Models, ViewModels로 파일을 분류 (Controller - 스토리보드, 코드 두 가지 형식)
     >
