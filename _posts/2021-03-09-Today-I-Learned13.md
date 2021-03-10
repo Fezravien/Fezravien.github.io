@@ -42,7 +42,7 @@ published: true
 - Model과 View는 Controller만 접근할 수 있다.
 - 역은 성립하지 않는다 !
 
-### <img src="https://blog.kakaocdn.net/dn/bNcP2j/btqFgwUxESu/H6RpdztQdhEG5dYz5Kkas0/img.png" alt="img" style="zoom:30%;" />
+### <img src="https://blog.kakaocdn.net/dn/bNcP2j/btqFgwUxESu/H6RpdztQdhEG5dYz5Kkas0/img.png" alt="img" style="zoom:55%;" />
 
 > 출처 : Stanford youtube 
 
@@ -105,7 +105,7 @@ published: true
   - 예시 코드를 확인해보면 ViewController안에 View가 존재하고 비지니스 로직이 존재한다 
     - 프로젝트가 커지면 ViewController 는 많은 비지니스 로직과 뷰들로 인해 무거워(복잡)진다.
 
-
+> 출처 : https://lsh424.tistory.com/44?category=948937
 
 ---
 
