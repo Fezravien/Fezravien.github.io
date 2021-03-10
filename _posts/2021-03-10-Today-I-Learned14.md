@@ -1,4 +1,4 @@
-글 올릴떄 !
+
 ---
 layout: post
 title: Today I Learned 📚
