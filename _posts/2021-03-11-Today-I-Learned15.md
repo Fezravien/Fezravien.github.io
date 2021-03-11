@@ -214,8 +214,6 @@ let notification = NotificationCenter.default
       }
   }
   
-  ----
-  
   class JuiceMaker {
       
       var fruitStorage = FruitStock.shared // 싱글톤 생성 
@@ -237,8 +235,9 @@ let notification = NotificationCenter.default
       
       func currentFruitStock() -> Storage {
       }
-}
-  
+    
+  }
+
   
   ```
   
