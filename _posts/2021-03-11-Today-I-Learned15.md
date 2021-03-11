@@ -190,7 +190,7 @@ let notification = NotificationCenter.default
 
   - 이번 PR에서 적용을 해봤다 !!! 
 
-  ```swift
+  ``` swift
   class FruitStock {
       public private(set) var fruits: Storage
       
@@ -235,4 +235,6 @@ let notification = NotificationCenter.default
   }
   ```
 
+  
+  
   - 저희 조는 이렇게 과일 저장소를 싱글톤으로 생성하고 쥬스 메이커에서 사용하는 방식으로 했습니다 !! 
