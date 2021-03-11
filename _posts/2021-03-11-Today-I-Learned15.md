@@ -116,6 +116,7 @@ userInfo.name = "Fezz"
 -  Singgleton Class 접근하는 방법 
 
   ```swift
+  
   class JuiceMaker {
       
       var fruitStorage = FruitStock.shared // 싱글톤 생성
@@ -162,11 +163,13 @@ userInfo.name = "Fezz"
 ##### iOS 에선 Singletion을 언제 쓸까?
 
 ``` swift
+
 let screen = UIScreen.main
 let userDefault = UserDefaults.standard
 let application = UIApplication.shared
 let fileManager = FileManager.default
 let notification = NotificationCenter.default
+
 ```
 
 - 꼭 한번만 `Instance`를 생성하고 프로그램이 끝날때 까지 사용하는 거야 !!
@@ -191,6 +194,8 @@ let notification = NotificationCenter.default
   - 이번 PR에서 적용을 해봤다 !!! 
 
   ``` swift
+  
+  
   class FruitStock {
       public private(set) var fruits: Storage
       
@@ -232,9 +237,11 @@ let notification = NotificationCenter.default
       
       func currentFruitStock() -> Storage {
       }
-  }
+}
+  
+  
   ```
-
+  
   
   
   - 저희 조는 이렇게 과일 저장소를 싱글톤으로 생성하고 쥬스 메이커에서 사용하는 방식으로 했습니다 !! 
