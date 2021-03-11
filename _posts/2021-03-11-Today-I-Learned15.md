@@ -162,15 +162,15 @@ userInfo.name = "Fezz"
 
 ##### iOS 에선 Singletion을 언제 쓸까?
 
-``` swift
-
+```swift
 let screen = UIScreen.main
 let userDefault = UserDefaults.standard
 let application = UIApplication.shared
 let fileManager = FileManager.default
 let notification = NotificationCenter.default
-
 ```
+
+
 
 - 꼭 한번만 `Instance`를 생성하고 프로그램이 끝날때 까지 사용하는 거야 !!
 
@@ -193,51 +193,52 @@ let notification = NotificationCenter.default
 
   - 이번 PR에서 적용을 해봤다 !!! 
 
-  ```swift
-  class FruitStock {
-      public private(set) var fruits: Storage
-      
-      static let shared = FruitStock() // 싱글톤
-      
-      private init() {
-  
-      }
-      
-      func manageStorage(fruit kind: Fruits, amount: Int) throws {
-  
-      }
-      
-      private func initStorage(amount: Int) {
-  
-      }
-  }
-  
-  class JuiceMaker {
-      
-      var fruitStorage = FruitStock.shared // 싱글톤 생성 
-      
-      func make(order: Juices) {
-  
-      }
-      
-      func consumeFruit(fruit kind: Fruits, amount: Int) {
-  
-      }
-      
-      func addFruitStock(fruit kind: Fruits, amount addFruits: Int = 1) {
-  
-      }
-      
-      func hasFruitStock(fruit kind: Fruits, amount: Int) throws {
-      }
-      
-      func currentFruitStock() -> Storage {
-      }
+    ```swift
+    class FruitStock {
+        public private(set) var fruits: Storage
+        
+        static let shared = FruitStock() // 싱글톤
+        
+        private init() {
     
-  }
-  
-  
-```
+        }
+        
+        func manageStorage(fruit kind: Fruits, amount: Int) throws {
+    
+        }
+        
+        private func initStorage(amount: Int) {
+    
+        }
+    }
+    class JuiceMaker {
+        
+        var fruitStorage = FruitStock.shared // 싱글톤 생성 
+        
+        func make(order: Juices) {
+    
+        }
+        
+        func consumeFruit(fruit kind: Fruits, amount: Int) {
+    
+        }
+        
+        func addFruitStock(fruit kind: Fruits, amount addFruits: Int = 1) {
+    
+        }
+        
+        func hasFruitStock(fruit kind: Fruits, amount: Int) throws {
+        }
+        
+        func currentFruitStock() -> Storage {
+        }
+      
+    }
+    
+    
+    ```
+
+    
   
   
   
