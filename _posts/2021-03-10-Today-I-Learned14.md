@@ -198,6 +198,7 @@ published: true
 ### 문제점 / 고민한 점 🤦🏼
 
 - 다음 `step 2 ~ 3`에서 앱을 만들기 위해 `step 1` 에서 데이터와 그것을 가공하는 로직을 작성할 때 어떻게 파일을 기능별로 분류하고 어디에 어떤 로직을 넣을까?
+- 과일 저장소는 앱 전체에서 범용적으로 사용되지 않나?
 
 ---
 
@@ -207,6 +208,7 @@ published: true
   - JuiceMaker, JuiceMakerModel로 나눔
     - JuiceMaker 에서는 데이터를 가공(음료 만들기, 재고 추가하기, 재고 보여주기 )
     - JuiceMakerModel 에서는 (과일 저장소 🍓🍌🥭🥝🍍)
+- 범용적으로 사용하는 과일 저장소를 `싱글톤 패턴`으로 구현해봤다.
 
 ![아침으로 간편하게 딸바 한잔!? 콜? 딸기바나나쥬스 [만개의레시피] - YouTube](https://i.ytimg.com/vi/YFWrsPqQqpM/hqdefault.jpg)
 
