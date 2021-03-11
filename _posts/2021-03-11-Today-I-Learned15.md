@@ -193,9 +193,7 @@ let notification = NotificationCenter.default
 
   - 이번 PR에서 적용을 해봤다 !!! 
 
-  ``` swift
-  
-  
+  ```swift
   class FruitStock {
       public private(set) var fruits: Storage
       
@@ -237,9 +235,11 @@ let notification = NotificationCenter.default
       }
     
   }
-
   
-  ```
+  
+```
+  
+  
   
   
   
