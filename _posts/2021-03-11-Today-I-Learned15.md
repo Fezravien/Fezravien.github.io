@@ -3,7 +3,7 @@ layout: post
 title: Today I Learned 📚
 tags:
   - TIL
-  - yagom iOS_CAMP_2nd
+  - yagom-iOS-CAMP-2nd
   - ios
 hero: https://source.unsplash.com/collection/14233285/
 overlay: orange
