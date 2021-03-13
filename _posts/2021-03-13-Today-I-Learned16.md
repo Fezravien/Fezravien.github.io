@@ -287,6 +287,12 @@ StackView 란 Auto Layout을 이용해 열 또는 행에 View들의 묶음을 �
 
   
 
+> 출처 
+>
+> https://hyunndyblog.tistory.com/148
+>
+> https://developer.apple.com/documentation/uikit/uistackview
+
 
 
 ### 문제점 / 고민한 점 🤦🏼
