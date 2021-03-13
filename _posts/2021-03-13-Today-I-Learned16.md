@@ -29,9 +29,9 @@ StackView 란 Auto Layout을 이용해 열 또는 행에 View들의 묶음을 �
 
   - 디바이스의 방향, 스크린 사이즈, 혹은 일어날 어떠한 변화에 맞춰서 상대적으로 공간에 UI를 배치하는 기능
 
-  <img src="/Users/yjaewoongnaver.com/Desktop/스크린샷 2021-03-13 오전 1.13.19.png" alt="스크린샷 2021-03-13 오전 1.13.19" style="zoom:25%;" />  
+  <img width="500" alt="스크린샷 2021-03-13 오전 1 10 26" src="https://user-images.githubusercontent.com/44525561/111037147-3d01f080-8466-11eb-8235-f72873784ae5.png"> 
 
-   <img src="/Users/yjaewoongnaver.com/Desktop/스크린샷 2021-03-13 오전 1.10.26.png" alt="스크린샷 2021-03-13 오전 1.10.26" style="zoom:25%;" /> 
+   <img width="450" alt="스크린샷 2021-03-13 오전 1 13 19" src="https://user-images.githubusercontent.com/44525561/111037152-43906800-8466-11eb-8bda-81881c665154.png">
 
   > 조금,, 이상해지긴 하네요 ㅠㅠ
 
@@ -65,7 +65,7 @@ StackView 란 Auto Layout을 이용해 열 또는 행에 View들의 묶음을 �
 
         
 
-<img src="/Users/yjaewoongnaver.com/Downloads/R1280x0.png" alt="R1280x0" style="zoom:50%;" />
+![R1280x0-2](https://user-images.githubusercontent.com/44525561/111037159-49864900-8466-11eb-9367-6699dee019a0.png )
 
 
 
@@ -137,7 +137,7 @@ StackView 란 Auto Layout을 이용해 열 또는 행에 View들의 묶음을 �
 
   StackView의 축(Axis)을 따라 모두 같은 크기로 분배되도록 하는 옵션 
 
-  <img src="/Users/yjaewoongnaver.com/Desktop/R1280x0-2.png" alt="R1280x0-2" style="zoom:60%;" />
+  ![R1280x0-2](https://user-images.githubusercontent.com/44525561/111037159-49864900-8466-11eb-9367-6699dee019a0.png )
 
   
 
@@ -147,7 +147,7 @@ StackView 란 Auto Layout을 이용해 열 또는 행에 View들의 묶음을 �
 
   StackView를 채우고, 남은 공간이 생긴다면 intrinsic content size 의 비율에 맞게 공간을 분배하여 resize 된다.
 
-  <img src="/Users/yjaewoongnaver.com/Desktop/R1280x0-2-2.png" alt="R1280x0-2-2" style="zoom:60%;" />
+  <img src="https://user-images.githubusercontent.com/44525561/111037298-c9141800-8466-11eb-8ba9-91f7c5232653.png" alt="R1280x0-2-2" />
 
   
 
@@ -162,7 +162,7 @@ StackView 란 Auto Layout을 이용해 열 또는 행에 View들의 묶음을 �
 
   
 
-<img src="/Users/yjaewoongnaver.com/Desktop/R1280x0-2-2.1.png" alt="R1280x0-2-2.1" style="zoom:60%;" />
+![R1280x0-2-2 1](https://user-images.githubusercontent.com/44525561/111037309-d16c5300-8466-11eb-947e-dd451c81d73a.png)
 
 
 
@@ -196,7 +196,7 @@ StackView 란 Auto Layout을 이용해 열 또는 행에 View들의 묶음을 �
 
     > StackVIew의 축(Axis)과 수직인 방향으로 가능한 공간을 채우기위해 View들의 사이즈를 재조정 한다.
 
-    <img src="/Users/yjaewoongnaver.com/Desktop/R1280x0-2-2.2.png" alt="R1280x0-2-2.2" style="zoom:60%;" />
+    ![R1280x0-2-2 2](https://user-images.githubusercontent.com/44525561/111037354-0082c480-8467-11eb-92c7-083fc85b8a81.png)
 
     Axis가 Horizontal인 경우, 아래 위의 공간을 fill 하기 위해 늘리고,
 
@@ -208,7 +208,7 @@ StackView 란 Auto Layout을 이용해 열 또는 행에 View들의 묶음을 �
 
     
 
-  <img src="/Users/yjaewoongnaver.com/Desktop/R1280x0-2-2.3.png" alt="R1280x0-2-2.3" style="zoom:60%;" />
+  ![R1280x0-2-2 3](https://user-images.githubusercontent.com/44525561/111037368-0b3d5980-8467-11eb-8a63-4f6b4c9fb774.png)
 
   > - Vertical StackView에서 View들의 leading Edge와 StackView의 leading Edge에 맞춰 정렬한다.
   > - Horizontal StackView에서 Top 플래그와 동일한다.
@@ -222,7 +222,7 @@ StackView 란 Auto Layout을 이용해 열 또는 행에 View들의 묶음을 �
 
     
 
-    <img src="/Users/yjaewoongnaver.com/Desktop/R1280x0-2-2.4.png" alt="R1280x0-2-2.4" style="zoom:60%;" />
+    ![R1280x0-2-2 4](https://user-images.githubusercontent.com/44525561/111037377-11cbd100-8467-11eb-8087-8aa83b652ba0.png)
 
     
 
@@ -231,7 +231,7 @@ StackView 란 Auto Layout을 이용해 열 또는 행에 View들의 묶음을 �
     > - View들의 first baseline에 맞춰 StackView가 View들을 정렬하는 것을 말한다.
     > - 이 정렬은 오직 Horizontal StackView에서만 유효하다.
 
-    <img src="/Users/yjaewoongnaver.com/Desktop/R1280x0-2-2.5.png" alt="R1280x0-2-2.5" style="zoom:60%;" />
+    ![R1280x0-2-2 5](https://user-images.githubusercontent.com/44525561/111037392-18f2df00-8467-11eb-8aed-0b68e54b421a.png)
 
     
 
@@ -244,7 +244,7 @@ StackView 란 Auto Layout을 이용해 열 또는 행에 View들의 묶음을 �
     > - Vertical Stack의 Trailing Edge와 뷰들의 Trailing Edge를 맞춰 정렬하는 플래그이다.
     > - Horizontal Stack의 Bottom 정렬과 동일합니다.
 
-    <img src="/Users/yjaewoongnaver.com/Desktop/R1280x0-2-2.6.png" alt="R1280x0-2-2.6" style="zoom:60%;" />
+    ![R1280x0-2-2 6](https://user-images.githubusercontent.com/44525561/111037404-20b28380-8467-11eb-8230-a1a792e706d9.png)
 
     
 
@@ -252,7 +252,7 @@ StackView 란 Auto Layout을 이용해 열 또는 행에 View들의 묶음을 �
 
     > StackView가 축을 따라서 View들의 center를 StackView의 Center에 맞춰 정렬하는 것을 말한다.
 
-    <img src="/Users/yjaewoongnaver.com/Desktop/R1280x0-3-2.8.png" alt="R1280x0-3-2.8" style="zoom:60%;" />
+    ![R1280x0-3-2 8](https://user-images.githubusercontent.com/44525561/111037410-2c9e4580-8467-11eb-814b-1764724fdf80.png)
 
     
 
@@ -261,7 +261,7 @@ StackView 란 Auto Layout을 이용해 열 또는 행에 View들의 묶음을 �
     > - Vertical Stack의 Trailing Edge와 뷰들의 Trailing Edge를 맞춰 정렬하는 플래그이다.
     > - Horizontal Stack의 Bottom 정렬과 동일하다.
 
-    <img src="/Users/yjaewoongnaver.com/Desktop/R1280x0-2-2.6.png" alt="R1280x0-2-2.6" style="zoom:60%;" />
+    ![R1280x0-2-2 6](https://user-images.githubusercontent.com/44525561/111037404-20b28380-8467-11eb-8230-a1a792e706d9.png)
 
     
 
@@ -270,7 +270,7 @@ StackView 란 Auto Layout을 이용해 열 또는 행에 View들의 묶음을 �
     > - 가로 축(Horizontal) Stack의 Bottom Edge와 뷰들의 Bottom Edge를 맞춰 정렬하는 플래그이다.
     > - 세로 축(Vertical) Stack의 Trailing 정렬과 동일하다.
 
-    <img src="/Users/yjaewoongnaver.com/Desktop/R1280x0-2-2.7.png" alt="R1280x0-2-2.7" style="zoom:60%;" />
+    ![R1280x0-2-2 7](https://user-images.githubusercontent.com/44525561/111037419-39bb3480-8467-11eb-998d-612521a91397.png)
 
     
 
@@ -281,7 +281,7 @@ StackView 란 Auto Layout을 이용해 열 또는 행에 View들의 묶음을 �
     > - StackView가 View들의 last baseline에 맞춰 View들을 정렬하는 플래그이다.
     > - 이 정렬은 오직 가로 축(Horizontal) StackView에서만 유효하다
 
-    <img src="/Users/yjaewoongnaver.com/Desktop/R1280x0-2-2.8.png" alt="R1280x0-2-2.8" style="zoom:60%;" />
+    ![R1280x0-2-2 8](https://user-images.githubusercontent.com/44525561/111037428-42136f80-8467-11eb-98f8-68cbdc77765d.png)
 
     
 
