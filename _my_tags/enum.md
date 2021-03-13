@@ -1,0 +1,5 @@
+---
+slug: enum
+name: Enum
+---
+

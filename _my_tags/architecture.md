@@ -1,0 +1,5 @@
+---
+slug: architecture
+name: Architecture
+---
+

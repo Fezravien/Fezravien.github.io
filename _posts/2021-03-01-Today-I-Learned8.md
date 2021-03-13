@@ -5,6 +5,7 @@ tags:
   - til
   - yagom-ios-camp-2nd
   - swift
+  - class
 
 hero: https://source.unsplash.com/collection/4409024/
 overlay: orange
