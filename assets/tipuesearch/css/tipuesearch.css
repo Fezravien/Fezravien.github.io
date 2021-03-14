@@ -12,21 +12,21 @@ http://www.tipue.com/search
 
 #tipue_search_input, #tipue_search_foot_boxes
 {
-     font: 300 14px/1 Roboto, sans-serif;
+     font: 300 35px/1 Roboto, sans-serif;
 }
-#tipue_search_results_count, #tipue_search_warning, .tipue_search_content_url, .tipue_search_content_debug, .tipue_search_related_text
+.tipue_search_results_count, #tipue_search_warning, #tipue_search_content_url, #tipue_search_content_debug, #tipue_search_related_text
 {
-     font: 300 14px/1.7 Roboto, sans-serif;
+     font: 300 20px/1.7 Roboto, sans-serif;
 }
-.tipue_search_content_title
+#tipue_search_content_title
 {
-     font: 100 26px/1.7 Roboto, sans-serif;
+     font: 100 35px/1.7 Roboto, sans-serif;
 }
-.tipue_search_content_text, .tipue_search_related_title
+#tipue_search_content_text, #tipue_search_related_title
 {
      font: 300 15px/1.7 Roboto, sans-serif;
 }
-.tipue_search_content_bold, .tipue_search_related_bold
+#tipue_search_content_bold, #tipue_search_related_bold
 {
      font-weight: 400;
 }
@@ -35,7 +35,7 @@ http://www.tipue.com/search
 /* search box */
 
 
-#tipue_search_input
+.tipue_search_input
 {
      color: #333;
      max-width: 210px;
@@ -50,8 +50,8 @@ http://www.tipue.com/search
 }
 .tipue_search_icon
 {
-     width: 35px;
-     height: 35px;
+     width: 50px;
+     height: 50px;
 }
 .tipue_search_left
 {
@@ -66,9 +66,9 @@ http://www.tipue.com/search
 /* search results */
 
 
-#tipue_search_content
+.tipue_search_content
 {
-     max-width: 750px;
+     max-width: 950px;
 	padding-top: 15px;
 	margin: 0;
 }
@@ -125,7 +125,7 @@ http://www.tipue.com/search
      hyphens: auto;
      margin-top: 10px;
 }
-.tipue_search_content_bold
+#tipue_search_content_bold
 {
      color: #333;
 }
@@ -134,7 +134,7 @@ http://www.tipue.com/search
 	color: #333;
      margin: 5px 0;
 }
-.tipue_search_related_title
+#tipue_search_related_title
 {
 	color: #333;
      margin: 26px 0 7px 0;
@@ -184,7 +184,7 @@ http://www.tipue.com/search
 	margin-right: 7px;
 	text-align: center;
 }
-#tipue_search_foot_boxes li a:hover
+.tipue_search_foot_boxes li a:hover
 {
      background: #f6f6f6;
 }

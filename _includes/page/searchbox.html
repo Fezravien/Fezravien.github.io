@@ -1,11 +1,14 @@
 <div class="searchbox">
   <form method="get" id="searchie" action="/search">
+    <!-- <form method="get" id="tipue_search_input" action="/search"> -->
     <input type="hidden" name="sites" value="{{ site.blog.search_path }}"/>
     <input type="hidden" name="k8" value="#444444"/>
     <input type="hidden" name="k9" value="#D51920"/>
     <input type="hidden" name="kt" value="h"/>
+    <!-- <input type="text" name="q" id="tipue_search_input" pattern=".{2,}" title="최소 2글자 이상" required></div> -->
     <span class="icon-search"></span>
-    <input type="search" name="q" maxlength="255" placeholder="Search&hellip;"/>
+
+    <input type="search" name="q" id="tipue_search_input" maxlength="255" placeholder="Search&hellip;"/>
     <!-- <input type="button"/> -->
   </form>
 </div>

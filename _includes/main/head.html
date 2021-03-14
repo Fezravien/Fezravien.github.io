@@ -38,7 +38,12 @@
 <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
 <meta property="og:site_name" content="{{ site.blog.title }}">
 
-
+<!-- tipuesearch -->
+ <link rel="stylesheet" href="/assets/tipuesearch/css/tipuesearch.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="/assets/tipuesearch/tipuesearch_content.js"></script>
+ <script src="/assets/tipuesearch/tipuesearch_set.js"></script>
+ <script src="/assets/tipuesearch/tipuesearch.min.js"></script>
 
 <!-- Styles -->
 <link rel="stylesheet" href="{{ "assets/vendor/normalize-css/normalize.css" | relative_url }}">
@@ -55,12 +60,5 @@
 
 {% if site.blog.inline_footnotes == true %}
 <link rel="stylesheet" href="{{ "assets/css/bf.css" | relative_url }}">
-
-<!-- tipuesearch -->
- <link rel="stylesheet" href="/assets/tipuesearch/css/tipuesearch.css">
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
- <script src="/assets/tipuesearch/tipuesearch_content.js"></script>
- <script src="/assets/tipuesearch/tipuesearch_set.js"></script>
- <script src="/assets/tipuesearch/tipuesearch.min.js"></script>
 
 {% endif %}

@@ -6,6 +6,8 @@ tags:
   - yagom-ios-camp-2nd
   - ios
   - stackview
+category:
+  - ios
 hero: https://source.unsplash.com/collection/11663747/
 overlay: orange
 published: true

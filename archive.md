@@ -13,8 +13,6 @@ sitemap:
 
 {% endcapture %}
 
-
-
     {% for post in site.posts %}
 
     {% assign category = site.my_categories | where: "slug", post.category %}

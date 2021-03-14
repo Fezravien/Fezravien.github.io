@@ -4,7 +4,7 @@ title: Today I Learned 📚
 tags:
   - til
   - yagom-ios-camp-2nd
-  - CS
+  - cs
   - swift
 
 hero: https://source.unsplash.com/collection/3728885/
