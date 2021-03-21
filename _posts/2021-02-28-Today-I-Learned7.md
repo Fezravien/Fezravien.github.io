@@ -4,7 +4,6 @@ title: Today I Learned 📚
 tags:
   - til
   - yagom-ios-camp-2nd
-  - git
 hero: https://source.unsplash.com/collection/14233285/
 overlay: orange
 published: true

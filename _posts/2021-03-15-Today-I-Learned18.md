@@ -4,9 +4,6 @@ title: Today I Learned 📚
 tags:
   - TIL
   - yagom-ios-camp-2nd
-  - ios
-  - swift
-  - notificationcenter
 hero: https://source.unsplash.com/collection/3728885/
 overlay: orange
 published: true

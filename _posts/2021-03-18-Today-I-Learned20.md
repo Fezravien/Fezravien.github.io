@@ -1,13 +1,11 @@
 ---
 layout: post
-title:   Swift - 초기화(Initializer)
+title: Today I Learned 📚
 tags:
-  - swift
-  - class
-  - struct
-  - initializer
-hero: https://source.unsplash.com/collection/4828371/
-overlay: purple
+  - TIL
+  - yagom-ios-camp-2nd
+hero: https://source.unsplash.com/collection/2243327/
+overlay: orange
 published: true
 
 ---
@@ -15,7 +13,15 @@ published: true
 {: .lead}
 <!–-break-–>
 
-# 초기화 (Initializer) 
+
+
+# Today I Learned 🔥
+
+## 2021.03.18 (목) 🗓
+
+### 학습내용 📝
+
+### 초기화 (Initializer) 
 
 **스위프트에서 옵셔널 타입으로 선언되지 않은 모든 저장 프로퍼티는 인스턴스가 생성되기 전에 반드시 초기값이 설정되어야 한다.**
 
@@ -102,7 +108,7 @@ published: true
 
 3. `편의 초기화` 메소드의 연쇄 호출은 최종적으로 지정 초기화 메소드를 호출하는 것으로 끝나야 한다.
 
-   
+    
 
 <img src="http://minsone.github.io/image/2014/09/initializersExample02_2x.png" alt="Swift-Initialization 정리" style="zoom:67%;" />
 
@@ -136,7 +142,7 @@ published: true
 
   4. 1단계 초기화가 끝나기 전에는 `인스턴스 메소드`를 사용할 수 없으며, `인스턴스 프로퍼티`를 읽을 수도 없으며, `self`를 참조해서도 안 된다.
 
-     
+      
 
 ## 초기화 세부적 과정 
 
@@ -155,3 +161,78 @@ published: true
 2. 바로 다음 단계의 `지정 초기화` 메소드 뒷부분에서 필요한 `커스터마이징`이 실행된다.
 3. 이 과정이 계속해서 반복되어 현 단계의 클래스까지 이어져 내려오게 된다.
 4. 이제 현 단계의 `편의 초기화` 메소드까지 흐름이 오고 나면 `인스턴스 메소드`나 `self`를 모두 안전하게 참조할 수 있다
+
+
+
+---
+
+### 문제점 / 고민한 점 🤦🏼
+
+- 커스텀 라벨 클래스로 각각의 라벨을 관리할 수 있을까?
+
+  - Delegate Pattern 사용해보기 
+
+  ```swift
+  // JuiceData
+  protocol StockDelegate {
+    	func currentStock(fruit: Fruits)
+  }
+  
+  // FruitStorage
+  var delegate: FruitStockLabel?
+  
+  func manageStorage(fruit kind: Fruits, amount: Int) {
+      guard let stock = fruits[kind] else {
+          return NSLog(JuiceMakerError.invalidStock.localizedDescription)
+      }
+      fruits.updateValue(stock + amount, forKey: kind)
+      delegate.currentStock(fruit: kind)
+  }
+  
+  // FruitStockLabel
+  func currentStock(fruit: Fruits) {
+      self.text = "\(juiceMaker.fruitStorage.fruits[fruit]!)"
+  }
+  ```
+
+  > 분명,, 뭔가 놓치고 있다... 
+
+
+
+### 해결방법 🙋🏼
+
+- 커스텀 라벨에 `노티피케이션 센터`로 라벨 별로 수량 관리
+
+```swift
+final class FruitStockLabel: UILabel {
+    private var juiceMaker = JuiceMaker.shared
+    private(set) var kindFruit: Fruits?
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        NotificationCenter.default.addObserver(self,
+                                               selector: #selector(updateLabel(_ :)),
+                                               name: Notification.Name(rawValue: "changeFruitAmount"),
+                                               object: nil)
+        self.layer.backgroundColor = .init(gray: 0.8, alpha: 0.6)
+        self.layer.cornerRadius = 10
+        self.layer.borderWidth = 1
+        self.adjustsFontSizeToFitWidth = true
+    }
+    
+    func initValue(fruit: Fruits) {
+        guard let amount = juiceMaker.fruitStorage.fruits[fruit] else {
+            return
+        }
+        self.kindFruit = fruit
+        self.text = String(amount)
+    }
+    
+    @objc private func updateLabel(_ notification: Notification) {
+        guard let fruit = kindFruit, let amount = juiceMaker.fruitStorage.fruits[fruit] else {
+            return
+        }
+        self.text = String(amount)
+    }
+}
+```
