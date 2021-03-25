@@ -20,7 +20,7 @@ published: true
 
 ### 학습내용 📝
 
-계산기를 만들다 보니 연산자에 따른 우선순위 덕분에 복잡해졌다 ...
+계산기를 만들다 보니 연산자에 따른 우선순위 덕분에 복잡해졌다 ..
 
 #### 연산자 우선순위(https://developer.apple.com/documentation/swift/swift_standard_library/operator_declarations)
 
