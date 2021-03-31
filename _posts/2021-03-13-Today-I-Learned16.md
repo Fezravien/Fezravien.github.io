@@ -27,9 +27,9 @@ StackView 란 Auto Layout을 이용해 열 또는 행에 View들의 묶음을 �
 
   - 디바이스의 방향, 스크린 사이즈, 혹은 일어날 어떠한 변화에 맞춰서 상대적으로 공간에 UI를 배치하는 기능
 
-  <img width="500" alt="스크린샷 2021-03-13 오전 1 10 26" src="https://user-images.githubusercontent.com/44525561/111037147-3d01f080-8466-11eb-8235-f72873784ae5.png"> 
+  <img width="700" alt="스크린샷 2021-03-13 오전 1 10 26" src="https://user-images.githubusercontent.com/44525561/111037147-3d01f080-8466-11eb-8235-f72873784ae5.png"> 
 
-   <img width="450" alt="스크린샷 2021-03-13 오전 1 13 19" src="https://user-images.githubusercontent.com/44525561/111037152-43906800-8466-11eb-8bda-81881c665154.png">
+   <img width="750" alt="스크린샷 2021-03-13 오전 1 13 19" src="https://user-images.githubusercontent.com/44525561/111037152-43906800-8466-11eb-8bda-81881c665154.png">
 
   > 조금,, 이상해지긴 하네요 ㅠㅠ
 
