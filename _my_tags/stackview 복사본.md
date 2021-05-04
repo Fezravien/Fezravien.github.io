@@ -1,5 +1,0 @@
----
-slug: autolayout
-name: AutoLayout
----
-
