@@ -1,0 +1,5 @@
+---
+slug: scenedelegate
+name: SceneDelegate
+---
+
