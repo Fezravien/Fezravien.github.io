@@ -1,5 +1,0 @@
----
-slug: til
-name: TIL
----
-

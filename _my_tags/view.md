@@ -1,5 +1,0 @@
----
-slug: view
-name: View
----
-

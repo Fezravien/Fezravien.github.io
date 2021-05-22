@@ -1,5 +1,0 @@
----
-slug: subscripts
-name: Subscripts
----
-
