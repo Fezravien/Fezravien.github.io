@@ -1,0 +1,5 @@
+---
+slug: coredata
+name: CoreData
+---
+
